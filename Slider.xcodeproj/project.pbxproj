@@ -18,6 +18,8 @@
 		300377101750803D0022C700 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3003770F1750803D0022C700 /* Default-568h@2x.png */; };
 		300377131750803D0022C700 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 300377111750803D0022C700 /* MainStoryboard.storyboard */; };
 		300377161750803D0022C700 /* SliderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 300377151750803D0022C700 /* SliderViewController.m */; };
+		3003771E1750818A0022C700 /* AskerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3003771D1750818A0022C700 /* AskerViewController.m */; };
+		3003772117508EF10022C700 /* AskerNextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3003772017508EF10022C700 /* AskerNextViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +39,10 @@
 		300377121750803D0022C700 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		300377141750803D0022C700 /* SliderViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SliderViewController.h; sourceTree = "<group>"; };
 		300377151750803D0022C700 /* SliderViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SliderViewController.m; sourceTree = "<group>"; };
+		3003771C1750818A0022C700 /* AskerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AskerViewController.h; sourceTree = "<group>"; };
+		3003771D1750818A0022C700 /* AskerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AskerViewController.m; sourceTree = "<group>"; };
+		3003771F17508EF10022C700 /* AskerNextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AskerNextViewController.h; sourceTree = "<group>"; };
+		3003772017508EF10022C700 /* AskerNextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AskerNextViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,8 +90,12 @@
 			isa = PBXGroup;
 			children = (
 				300377081750803D0022C700 /* SliderAppDelegate.h */,
+				3003771F17508EF10022C700 /* AskerNextViewController.h */,
+				3003772017508EF10022C700 /* AskerNextViewController.m */,
 				300377091750803D0022C700 /* SliderAppDelegate.m */,
 				300377111750803D0022C700 /* MainStoryboard.storyboard */,
+				3003771C1750818A0022C700 /* AskerViewController.h */,
+				3003771D1750818A0022C700 /* AskerViewController.m */,
 				300377141750803D0022C700 /* SliderViewController.h */,
 				300377151750803D0022C700 /* SliderViewController.m */,
 				300377001750803D0022C700 /* Supporting Files */,
@@ -177,6 +187,8 @@
 				300377061750803D0022C700 /* main.m in Sources */,
 				3003770A1750803D0022C700 /* SliderAppDelegate.m in Sources */,
 				300377161750803D0022C700 /* SliderViewController.m in Sources */,
+				3003771E1750818A0022C700 /* AskerViewController.m in Sources */,
+				3003772117508EF10022C700 /* AskerNextViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,6 +7,8 @@
 //
 
 #import "SliderViewController.h"
+#import "AskerViewController.h"
+#import "AskerNextViewController.h"
 
 @interface SliderViewController ()
 
@@ -14,16 +16,19 @@
 
 @implementation SliderViewController
 
-- (void)viewDidLoad
-{
-    [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
+    if([segue.identifier isEqualToString:@"Ask"]){
+        AskerViewController *asker = segue.destinationViewController;
+        asker.question = @"Ask what do you want?";
+    }
 }
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (IBAction)cancelAsking:(UIStoryboardSegue *)segue{
+    AskerViewController *asker = segue.sourceViewController;
+    NSLog(@"In cancel question1");
+    NSLog(@"%@", asker.answer);
+    
 }
+
 
 @end
